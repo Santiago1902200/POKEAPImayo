@@ -128,4 +128,10 @@ await supabase.auth.signOut();
 location.reload(); // recarga la app
 
 });
+
+// Administrador
+document.getElementById('btn-administrador').addEventListener('click', async () => {
+    await mostrarAdministrador();
+});
+
 }
